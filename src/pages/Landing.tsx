@@ -48,15 +48,12 @@ const Container = styled.div`
   .logo {
     height: 40vh;
     width: 40vh;
-    /* padding: 1.5em; */
     border-radius: 50%;
     animation: logo-spin infinite 20s linear;
   }
 
   h1 {
-    font-size: 2em;
-    /* color: #2cd3e1; */
-    /* color: #0079ff; */
+    font-size: 2rem;
   }
 
   .desc {

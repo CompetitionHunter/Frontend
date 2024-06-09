@@ -212,7 +212,7 @@ const Container = styled.div`
   @media ${({ theme }) => theme.device.mobile} {
     width: 97%;
     max-height: 90vh;
-    height: 90vh;
+    height: 85.5vh;
   }
 `;
 

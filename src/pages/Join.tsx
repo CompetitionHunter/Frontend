@@ -3,14 +3,14 @@ import { useNavigate } from "react-router-dom";
 import { MailOutlined, CheckSquareOutlined } from "@ant-design/icons";
 import { Carousel } from "antd";
 import styled from "styled-components";
-import ExampleImg from "../assets/Orichat_Logo.jpeg";
-import ExampleImg2 from "../assets/add.png";
+import loading from "../assets/desc/orichat.gif";
+import chat from "../assets/desc/chat-mobile.png";
+import list from "../assets/desc/list-mobile.png";
 
 const contentStyle: React.CSSProperties = {
   height: "100vh",
-  color: "#000",
   textAlign: "center",
-  background: "#feff86",
+  objectFit: "contain",
   margin: 0,
 };
 
@@ -43,16 +43,13 @@ const Join = () => {
       <Intoduce>
         <Carousel autoplay>
           <div>
-            <img src={ExampleImg} alt="ex" style={contentStyle} />
+            <img src={loading} alt="ex" style={contentStyle} />
           </div>
           <div>
-            <img src={ExampleImg2} alt="ex" style={contentStyle} />
+            <img src={list} alt="ex" style={contentStyle} />
           </div>
           <div>
-            <img src={ExampleImg} alt="ex" style={contentStyle} />
-          </div>
-          <div>
-            <img src={ExampleImg2} alt="ex" style={contentStyle} />
+            <img src={chat} alt="ex" style={contentStyle} />
           </div>
         </Carousel>
       </Intoduce>
@@ -107,6 +104,7 @@ const FormContainer = styled.div`
   width: 60vw;
   height: 100vh;
   display: flex;
+  border-left: 1px solid #f2f2f2;
   flex-direction: column;
   justify-content: center;
   align-items: center;
