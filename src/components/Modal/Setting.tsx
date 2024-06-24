@@ -176,6 +176,7 @@ const Title = styled.div`
   width: 100%;
   h1 {
     font-size: 1rem;
+    margin-bottom: 0.5rem;
     span {
       font-size: 1rem;
       margin-right: 0.5rem;

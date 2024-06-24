@@ -60,30 +60,9 @@ const CharacterProfile: React.FC<ProfileProps> = ({ children }) => {
 const MyModal = styled(Modal)`
   width: 25vw;
   @media ${({ theme }) => theme.device.mobile} {
-    width: 100vw;
-    height: 100vh;
+    width: 70vw;
+    height: 50vh;
   }
-  /* .ant-modal-content {
-    border-radius: 1rem;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
-  }
-  .ant-modal-header {
-    border-bottom: none;
-    padding: 1rem 1.5rem;
-    h4 {
-      font-size: 1.5rem;
-      font-weight: 600;
-    }
-  }
-  .ant-modal-body {
-    padding: 1rem 1.5rem;
-  }
-  .ant-modal-footer {
-    border-top: none;
-    padding: 1rem 1.5rem;
-    display: flex;
-    justify-content: center;
-  } */
 `;
 
 const Button = styled.button`
