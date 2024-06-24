@@ -456,17 +456,15 @@ const ChatContainer = styled.div`
     position: absolute;
     z-index: 1;
     left: 0;
-    top: -100vh;
+    top: -92vh;
     width: 100vw;
-    height: 95vh;
-    /* bottom: 8vh;
-    width: 29vw;
-    max-height: 80vh;
-    margin: 1vw; */
-    max-height: 95vh;
+    height: 90vh;
+    max-height: 90vh;
     background-color: #fff;
     padding-top: 2vh;
-    border-radius: 1rem;
+    border-radius: 0;
+    margin: 0;
+    box-shadow: none;
   }
 `;
 
